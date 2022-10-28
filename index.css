@@ -1,1 +1,86 @@
-/* test */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+#Header, #Footer
+{
+    position: absolute;
+    width: 100%;
+    color: #ffffff;
+}
+#Header
+{
+    background-color: #434343;
+    height: 10vh;
+}
+
+#Footer
+{
+    background-color: #17d4af;
+    height: 10vh;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+#Header h2
+{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#Footer h2
+{
+    position: absolute;
+    text-align: left;
+    margin-left: 40px;
+    background-color: #17d4af;
+}
+
+.nav1
+{
+    position: absolute;
+    width: 50%;
+}
+
+.nav-top
+{
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 24px;
+    left: 140%;
+    top: 15px;
+    width: 50%;
+}
+
+.nav2
+{
+    position: absolute;
+    width: 40%;
+}
+
+.nav-bot
+{
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 24px;
+    left: 160%;
+    top: 10px;
+    width: 70%;
+}
