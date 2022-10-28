@@ -1,1 +1,1 @@
-# BeliSkuy
+BeliSkuy is a group project and my first attempt at learning HTML, CSS, and Jquery. 

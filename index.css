@@ -80,7 +80,27 @@ body
     flex-direction: row;
     gap: 5px;
     font-size: 24px;
-    left: 160%;
-    top: 10px;
+    left: 150%;
+    top: 25px;
     width: 70%;
+}
+
+.chat-bubble
+{
+    position: relative;
+    left: 220%;
+    width: 40px;
+    height: auto;
+    bottom: 10px;
+}
+
+.a
+{
+    text-decoration: inherit;
+    color: #ffffff;
+}
+
+.a:hover
+{
+    color: rgb(165, 165, 165);
 }
