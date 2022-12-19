@@ -121,14 +121,13 @@ body
     /* display: flex; */
     /* align-items: center; */
     left: 5%;
-    height: 100vh;
+    height: 50vh;
     top: 120px;
 }
 
 #profilepic
 {
     display: flex;
-    height: 100%;
     width: 100%;
 }
 
