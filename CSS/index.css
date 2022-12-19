@@ -104,3 +104,68 @@ body
 {
     color: rgb(165, 165, 165);
 }
+
+
+.logo2
+{
+    position: absolute;
+    left: 0.4%;
+    top: auto;
+    height: 60px;
+    width: 60px;
+}
+
+#profile
+{
+    position: absolute;
+    /* display: flex; */
+    /* align-items: center; */
+    left: 5%;
+    height: 100vh;
+    top: 120px;
+}
+
+#profilepic
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.editprofile
+{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+#up
+{
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.editprofile
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px #17d4af;
+    border-radius: 1rem;
+    background-color: #17d4af;
+    width: 80%;
+    margin-top: 10%;
+}
+
+.ulprof
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    height: 35.5%;
+    width: 400%;
+    margin-left: 5%;
+    font-size: 20px;
+}
