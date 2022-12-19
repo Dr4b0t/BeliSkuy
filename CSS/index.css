@@ -118,8 +118,6 @@ body
 #profile
 {
     position: absolute;
-    /* display: flex; */
-    /* align-items: center; */
     left: 5%;
     height: 50vh;
     top: 120px;
@@ -161,12 +159,17 @@ body
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     list-style: none;
-    height: 35.5%;
-    width: 400%;
+    height: 30%
+    width: 100%;
     margin-left: 5%;
     font-size: 20px;
+}
+
+.ulprof>li
+{
+    margin: 9.5px;
 }
 
 #SignupB
