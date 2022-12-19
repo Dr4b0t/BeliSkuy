@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOCoding</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../CSS/index.css">
 </head>
 <body>
     <div id="SignupB">
+        <img id="welcomepic" src="../Png/WELCOME.png" alt="Welcome logo">
         <div id="insignup">
-            <div id="su">SIGNUP</div>
-            <form action="" method="post">
+            <div id="su">
+                <strong>REGISTER</strong> 
+            </div>
+            <form class="form" action="" method="post">
                 <div class="inform">
                     <label for="name">Name</label>
                     <input type="text" name="name" placeholder="Your Name">
@@ -28,25 +31,25 @@
                     <label for="confirmpassword">Confirm Password</label>
                     <input type="text" name="confirmpassword" placeholder="Confirm Your Password">
                 </div>
-                <div class="inform">
-                    <label for="dob">Date of Birth</label>
-                    <input type="date" name="dob" placeholder="Date of Birth">
-                </div>
 
-                <div class="button">
-                    <div id="ge">Gender</div>
-                    <input type="radio" name="gender" placeholder="Male">
-                    <label for="gender">Male</label>
-                    <input type="radio" name="gender" placeholder="Female">
-                    <label for="gender">Female</label>
+                <div class="buttong">
+                    <div id="ge">Gender:</div>
+                    <div class="inputradio">
+                        <input type="radio" name="gender" placeholder="Male">
+                        <label for="gender">Male</label>   
+                    </div>
+                    <div class="inputradio">
+                        <input type="radio" name="gender" placeholder="Female">
+                        <label for="gender">Female</label>
+                    </div>
                 </div>
 
                 <div class="button">
                     <input type="checkbox" name="password" placeholder="Your Password">
-                    <label for="check">I Agree to Terms and Conditions</label>
+                    <label for="check">I agree with all of the <a href="">Terms and Conditions</a> from BeliSkuy</label>
                 </div>
             </form>  
-            <button type="submit" id="subb">Submit</button>
+            <button class="registerbutton" type="submit" >Register</button>
         </div>
     </div>
 </body>

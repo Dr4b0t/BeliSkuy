@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 *
 {
     margin: 0%;
@@ -168,3 +168,115 @@ body
     margin-left: 5%;
     font-size: 20px;
 }
+
+#SignupB
+{
+    display: flex;
+    height: 100vh;
+    background-color: #434343;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 100px;
+}
+
+#welcomepic
+{
+    margin-top: 25px;
+}
+
+#insignup
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-content: space-between; */
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: #17d4af;
+    height: 70%;
+    width: 32%;
+}
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+    width: 80%;
+}
+
+.inform
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#SignupB>div
+{
+    color:  #fffeff;
+}
+
+#su
+{
+    font-weight: 600;
+    font-size: 50px;
+    color:  #fffeff;
+}
+.inform>label
+{
+    color: #fffeff;
+}
+.inform>input
+{
+    padding: 6px;
+    border-radius: 0.5rem;
+    color:  black;
+}
+
+.button>label
+{
+    color:  #fffeff;
+}
+
+.buttong
+{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.inputradio
+{
+    margin-left: 10px;
+}
+.buttong>label
+{
+    color:  #fffeff;
+}
+
+#ge
+{
+    color:  #fffeff;
+}
+
+
+#subb:hover
+{
+    background-color: beige;
+}
+
+.registerbutton
+{
+    padding: 5px;
+    background-color: #434343;
+    color: #fffeff;
+    border: 1px solid #434343;
+    border-radius: 0.5rem;
+    font-size: 30px;
+    width: 30%;
+}
+
