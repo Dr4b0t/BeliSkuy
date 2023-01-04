@@ -63,7 +63,20 @@ body
     font-size: 24px;
     left: 140%;
     top: 15px;
-    width: 50%;
+    width: 60%;
+}
+
+.nav-top2
+{
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 24px;
+    left: 140%;
+    top: 15px;
+    width: 60%;
 }
 
 .nav2
@@ -73,6 +86,19 @@ body
 }
 
 .nav-bot
+{
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 24px;
+    left: 170%;
+    top: 25px;
+    width: 70%;
+}
+
+.nav-bot2
 {
     position: relative;
     list-style: none;
@@ -94,17 +120,48 @@ body
     bottom: 10px;
 }
 
-.a
+.profilepng
+{       
+    position: relative;
+    padding-left: 20%;
+    right: 15%;
+}
+
+.profilepng2
+{       
+    position: relative;
+    padding-left: 20%;
+}
+
+.navitem
+{
+    display: flex;
+    text-decoration: inherit;
+    color: #ffffff;
+}
+
+.navitem2
 {
     text-decoration: inherit;
     color: #ffffff;
 }
 
-.a:hover
+.navitem:hover
 {
     color: rgb(165, 165, 165);
 }
 
+.navitem2:hover
+{
+    color: rgb(165, 165, 165);
+}
+
+.navborder
+{
+    padding: 6px;
+    border-radius: 12px;
+    background-color: #17d4af;
+}
 
 .logo2
 {
@@ -161,7 +218,7 @@ body
     flex-direction: column;
     /* justify-content: space-between; */
     list-style: none;
-    height: 30%
+    height: 30%;
     width: 100%;
     margin-left: 5%;
     font-size: 20px;
@@ -282,4 +339,76 @@ body
     font-size: 30px;
     width: 30%;
 }
+
+#imageslider
+{
+    position: static;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100w;
+    height: 100vh;
+}
+
+.slider
+{
+    display: inline-flex;
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    /* top: 100%; */
+    /* margin-top: 6%; */
+}
+
+#image1 
+{
+    background-image: url('../Png/People1.jpg');
+}
+  
+#image2 
+{
+    background-image: url('../Png/Event1.jpg');
+}
+  
+#image3 
+{
+    background-image: url('../Png/People2.jpg');
+}
+
+.arrow 
+{
+    position: absolute;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 5%;
+    top: 50%;
+}
+  
+#rightarrow 
+{
+    right: 20px;
+}
+  
+#leftarrow 
+{
+    left: 20px;
+}
+
+@media (max-device-width: 1024px) 
+{
+    .arrow 
+    {
+      width: 20%;
+    }
+}
+  
+@media (max-width: 768px) 
+{
+    .arrow
+    {
+      width: 10%;
+    }
+}
+
 
