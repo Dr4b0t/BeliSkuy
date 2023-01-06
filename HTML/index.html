@@ -11,13 +11,13 @@
 </head>
 <body>
     <div id="Header">
-        <h2>BeliSkuy logo</h2>
+        <img class="logo2" src="../Png/Logo2.jpg" alt="logoweb">
         <div class="nav1">
             <ul class="nav-top">
                 <li><a class= "navitem" href="index.html">Home</a></li> 
                 <li><a class= "navitem" href="index.html">Cart</a></li> 
-                <li><a class= "navitem" href="index.html">Login <img class="profilepng" src="../Png/Profile.png" alt="profilepng"></a></li> 
-                <li><a class= "navitem navborder" href="index.html">Register</a></li>
+                <li><a onclick="openForm()" class= "navitem">Login <img class="profilepng" src="../Png/Profile.png" alt="profilepng"></a></li> 
+                <li><a class= "navitem navborder" href="register.html">Register</a></li>
             </ul>
         </div>
     </div>
@@ -42,6 +42,29 @@
         </div>
     </div>
 
-   
+    <div class="login-popup" id="loginform">
+        <form name="loginpage" class="formcon2" action="" method="post">
+          <div id="su2">
+              <button type="button" class="xbutton" onclick="closeForm()">X</button>
+              <strong>LOGIN</strong>
+          </div>
+          <div>
+              <label for="name">Username</label>
+              <input type="text" name="name" required>
+              <label for="pass">Password</label>
+              <input type="password" name="pass" required>
+          </div>
+          <div>
+              <input type="checkbox" name="password" placeholder="Your Password">
+              <label for="check">Keep me signed in</label>
+              <br>
+              <br>
+              <span>Don't Have an Account?<a href="register.html">Register Here!</a></span>
+          </div>
+          <br>
+          <button type="submit" class="login" onclick="loginformvalidation()">Login</button>    
+        </form>
+      </div> 
+
 </body>
 </html>

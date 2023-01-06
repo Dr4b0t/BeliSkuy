@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOCoding</title>
     <link rel="stylesheet" href="../CSS/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="../JS/script.js"></script>
 </head>
 <body>
     <div id="SignupB">
@@ -14,22 +16,22 @@
             <div id="su">
                 <strong>REGISTER</strong> 
             </div>
-            <form class="form" action="" method="post">
+            <form name="registerform" class="formcon" action="" method="post">
                 <div class="inform">
-                    <label for="name">Name</label>
+                    <label for="name">Username</label>
                     <input type="text" name="name" placeholder="Your Name">
                 </div>
                 <div class="inform">
                     <label for="email">Email</label>
-                    <input type="text" name="email" placeholder="Your Email">
+                    <input type="email" name="email" placeholder="Your Email">
                 </div>
                 <div class="inform">
-                    <label for="password">Password</label>
-                    <input type="text" name="password" placeholder="Your Password">
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" placeholder="Your Password">
                 </div>
                 <div class="inform">
                     <label for="confirmpassword">Confirm Password</label>
-                    <input type="text" name="confirmpassword" placeholder="Confirm Your Password">
+                    <input type="password" name="confirmpassword" placeholder="Confirm Your Password">
                 </div>
 
                 <div class="buttong">
@@ -49,7 +51,7 @@
                     <label for="check">I agree with all of the <a href="">Terms and Conditions</a> from BeliSkuy</label>
                 </div>
             </form>  
-            <button class="registerbutton" type="submit" >Register</button>
+            <button class="registerbutton" type="submit" onclick="formvalidation()">Register</button>
         </div>
     </div>
 </body>

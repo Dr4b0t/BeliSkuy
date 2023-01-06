@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BeliSkuy</title>
-    <link rel="stylesheet" href="../CSS/index.css">
-
+    <link rel="stylesheet" href="../CSS/gallery.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="../JS/script.js"></script>
 </head>
 <body>
     <div id="Header">
@@ -21,21 +22,16 @@
         </div>
     </div>
 
-   <div id="profile">
-        <div id="profilepic">
-            <div id="up">
-                <img class= "logo3" src="../Png/A1.png" alt="Muka User">
-                <span class="editprofile">Edit Profile</span>
-            </div>
-            <ul class="ulprof">
-                <li>Name:</li>
-                <li>Birth:</li>
-                <li>Gender:</li>
-                <li>E-mail:</li>
-                <li>Cellphone⠀Number:</li>
-                <li>Address:</li>
-            </ul>
-        </div>
+    <div id="imageslider">
+        <div class="slider" id="image1"></div>
+        <div class="slider" id="image2"></div>
+        <div class="slider" id="image3"></div>
+        <img src="../Png/arrowleft.png" alt="left arrow" class="arrow" id="leftarrow">
+        <img src="../Png/arrowright.png" alt="right arrow" class="arrow" id="rightarrow">
+    </div>
+
+    <div id="gallery">
+        <img src="../Png/Gallery.png" alt="">
     </div>
 
     <div id="Footer">
@@ -51,6 +47,5 @@
         </div>
     </div>
 
-   
 </body>
 </html>

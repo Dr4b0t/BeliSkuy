@@ -172,6 +172,7 @@ body
     width: 60px;
 }
 
+
 #profile
 {
     position: absolute;
@@ -260,7 +261,7 @@ body
     width: 32%;
 }
 
-.form
+.formcon
 {
     display: flex;
     flex-direction: column;
@@ -286,6 +287,7 @@ body
     font-size: 50px;
     color:  #fffeff;
 }
+
 .inform>label
 {
     color: #fffeff;
@@ -412,3 +414,82 @@ body
 }
 
 
+.login-popup 
+{
+    display: none;
+    position: absolute;
+    z-index: 9;
+    left: 540px;
+    bottom: 160px;
+}
+
+.formcon2
+{
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+}
+
+.formcon2 input[type=text] 
+{
+    width: 93%;
+    padding: 8px;
+    margin: 5px ;
+    background: white;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+.formcon2 input[type=password]
+{
+    width: 93%;
+    padding: 8px;
+    margin: 5px ;
+    background: white;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+.login 
+{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 5px;
+    background-color: #17d4af;
+    color: #fffeff;
+    border: 1px solid #17d4af;
+    border-radius: 0.5rem;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+#su2
+{
+    margin-left: 140px;
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+}
+
+#su2>.xbutton 
+{
+    display: flex;
+    margin-left: 250px;
+}
+
+.line 
+{
+    height: 60px;
+    background: linear-gradient(
+      to bottom,
+      transparent 27px,
+      #17d4af 27px,
+      #17d4af 31px,
+      transparent 31px
+    );
+}
