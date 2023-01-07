@@ -1,0 +1,170 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+#Header
+{
+    position: absolute;
+    width: 100%;
+    color: #ffffff;
+    background-color: #434343;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.back{
+    height: 8vh;
+}
+.logo{
+    height: 100%;
+}
+.chat{
+    background-color: #17d4af;
+    position: static;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100vw;
+    height: 100vh;
+}
+.chat2{
+    position: absolute;
+    bottom: 10vh;
+    width: 100%;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    color: #ffffff;
+    background-color: #434343;
+    height: 10vh;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer2{
+    position: absolute;
+    width: 100%;
+    color: #ffffff;
+    background-color: #17d4af;
+    height: 10vh;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.clip{
+    height: 10vh;
+}
+.input{
+    height: 10vh;
+}
+.send{
+    height: 10vh;
+}
+.cart{
+    position: static;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+.check{
+    margin-right: 20px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logolist{
+    margin: 100px;
+}
+.total{
+    margin-left: 10px;
+    height: 8vh;
+}
+.pay{
+    padding: 5px;
+    background-color: #434343;
+    color: #fffeff;
+    border: 1px solid #434343;
+    border-radius: 0.5rem;
+    font-size: 30px;
+    width: 10rem;
+    margin-right: 10px;
+    height: 8vh;
+}
+
+/* iPad Air */
+@media (max-device-width: 820px) 
+{
+    #Header{
+        height: 8vh;
+    }
+    .back{
+        height: 5vh;
+    }
+    .footer{
+        height: 8vh;
+    }
+    .clip{
+        height: 5vh;
+    }
+    .input{
+        height: 5vh;
+        width: 70%;
+    }
+    .send{
+        height: 5vh;
+    }
+    .logocart{
+        width: 10rem;
+    }
+    .footer2{
+        height: 8vh;
+    }
+    .total{
+        height: 5vh;
+    }
+    .pay{
+        font-size: 20px;
+        width: 8rem;
+        height: 5vh;
+    }
+}
+
+/* Samsung Galaxy S20 Ultra */
+@media (max-width: 420px) 
+{
+    .cart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .list{
+        margin-top: 10%;
+    }
+    .img{
+        height: 60px;
+    }
+}

@@ -397,19 +397,83 @@ body
     left: 20px;
 }
 
-@media (max-device-width: 1024px) 
+/* iPad Air */
+@media (max-device-width: 820px) 
 {
-    .arrow 
-    {
-      width: 20%;
+    .nav-top2{
+        left: 100%;
     }
-}
-  
-@media (max-width: 768px) 
-{
     .arrow
     {
       width: 10%;
+    }
+    .nav-bot2{
+        left: 100%;
+        gap: 5px;
+        width: 150%;
+    }
+    #SignupB{
+        flex-direction: column;
+        justify-content: center;
+        padding-right: unset;
+    }
+    #welcomepic{
+        width: 20rem;
+    }
+    #insignup{
+        position: relative;
+        bottom: 50px;
+        width: 80%;
+    }
+}
+
+/* Samsung Galaxy S20 Ultra */
+@media (max-width: 420px) 
+{
+    #Header{
+        height: 8vh;
+        font-size: 12px;
+    }
+    .nav-top2{
+        font-size: 15px;
+        left: 80%;
+        gap: 10px
+    }
+    .logo3{
+        width: 100px;
+    }
+    .editprofile
+    {
+        width: 90%;
+        font-size: medium;
+    }
+    .ulprof{
+        font-size: 12px;
+    }
+    .arrow
+    {
+      width: 10%;
+    }
+    #Footer{
+        align-items: flex-start;
+        font-size: 12px;
+    }
+    .nav-bot2{
+        font-size: 12px;
+        left: 90%;
+        gap: 5px;
+        width: 150%;
+    }
+    #insignup{
+        position: relative;
+        bottom: 30px;
+        width: 90%;
+    }
+    .registerbutton{
+        font-size: medium;
+    }
+    .button{
+        font-size: 12px;
     }
 }
 
