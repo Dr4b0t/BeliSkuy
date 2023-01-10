@@ -400,8 +400,8 @@ body
 /* iPad Air */
 @media (max-device-width: 820px) 
 {
-    .nav-top{
-        left: 90%;
+    .nav-top2{
+        left: 100%;
     }
     .arrow
     {
@@ -411,18 +411,6 @@ body
         left: 100%;
         gap: 5px;
         width: 150%;
-    }
-    .nav-bot{
-        left: 120%;
-        gap: 5px;
-        width: 150%;
-    }
-    #imageslider{
-        position: static;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 100vw;
-    height: 100vh;
     }
     #SignupB{
         flex-direction: column;
@@ -445,11 +433,6 @@ body
     #Header{
         height: 8vh;
         font-size: 12px;
-    }
-    .nav-top{
-        font-size: 15px;
-        left: 70%;
-        gap: 10px
     }
     .nav-top2{
         font-size: 15px;
@@ -474,12 +457,6 @@ body
     #Footer{
         align-items: flex-start;
         font-size: 12px;
-    }
-    .nav-bot{
-        font-size: 15px;
-        left: 100%;
-        gap: 5px;
-        width: 150%;
     }
     .nav-bot2{
         font-size: 12px;
