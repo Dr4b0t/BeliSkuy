@@ -27,7 +27,7 @@ body
 {
     background-color: #17d4af;
     height: 10vh;
-    /* bottom: 0; */
+    bottom: 0;
     display: flex;
     align-items: center;
 }
@@ -208,19 +208,80 @@ body
     left: 20px;
 }
 
-@media (max-device-width: 1024px) 
+/* iPad Air */
+@media (max-device-width: 820px) 
 {
+    #Header{
+        height: 8vh;
+    }
+    .nav-top2{
+        left: 100%;
+    }
+    #imageslider
+    {
+        width: 100vw;
+        height: 48vh;
+    }
+    
+    .slider
+    {
+        width: 100vw;
+        height: 40vh;
+        margin-top: 8vh;
+    }
     .arrow 
     {
-      width: 20%;
+        top: 28%;
+        width: 10%;
+    }
+    #gallery{
+        height: 42vh;
+    }
+    .nav-bot2{
+        left: 100%;
+        gap: 5px;
+        width: 150%;
+    }
+    #Footer{
+        height: 8vh;
     }
 }
   
-@media (max-width: 768px) 
+@media (max-width: 420px) 
 {
+    .nav-top2{
+        font-size: 15px;
+        left: 90%;
+        gap: 10px
+    }
+    #imageslider
+    {
+        width: 100vw;
+        height: 33vh;
+    }
+    .slider
+    {
+        width: 100vw;
+        height: 25vh;
+        margin-top: 8vh;
+    }
+    #gallery{
+        height: 27vh;
+    }
     .arrow
     {
-      width: 10%;
+        top: 20%;
+        width: 10%;
+    }
+    #Footer{
+        align-items: flex-start;
+        font-size: 12px;
+    }
+    .nav-bot2{
+        font-size: 15px;
+        left: 65%;
+        gap: 5px;
+        width: 150%;
     }
 }
 
